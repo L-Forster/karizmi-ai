@@ -16,12 +16,12 @@ async function generateResponse(inputText, memory) {
                         'Make the responses in a way a streamer would speak. ' +
                         'Respond in English. ' +
                         'You must act with the following personality attributes:' +
-                        'Profanity Frequency: 9/10' +
-                        'Viewer Engagement: 7/10' +
-                        'Memes and References: 8/10' +
-                        'Dark Humor: 10/10' +
-                        'Rule-Breaking: 10/10' +
-                        'Controversial Topics: 10/10' +
+                        'ATTRIBUTE A: 9/10' +
+                        'ATTRIBUTE B: 7/10' +
+                        'ATTRIBUTE C: 8/10' +
+                        'ATTRIBUTE D: 10/10' +
+                        'ATTRIBUTE E: 10/10' +
+                        'ATTRIBUTE F: 10/10' +
                         'This is your message history (use it to add context to your responses): ' + memory },
                 { role: 'user', content: inputText }
             ]
